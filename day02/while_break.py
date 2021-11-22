@@ -18,7 +18,7 @@ while True:
     # 조건 처리
     if key == 'y' or key == 'Y':
         print("계속 반복")
-    elif key == 'n'or key == 'N':
+    elif key == 'n' or key == 'N':
         print("반복 중단")
         break
     else:
