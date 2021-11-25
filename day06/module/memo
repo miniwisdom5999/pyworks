@@ -1,0 +1,13 @@
+day06 전체 git hub 보고 다시 복습하기.
+
+*모듈
+파일에서 첫부분에 [import 모듈이름]으로 선언
+
+
+종류 여러개 있음!!
+math 모듈
+datetime 모듈
+calendar 모듈
+random 모듈
+-random.random() - 0.0에서 1.0(보다 작은)사이의 실수 값 중에서 난수 값 발생
+-random.randint
