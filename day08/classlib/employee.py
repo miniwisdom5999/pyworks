@@ -2,7 +2,7 @@
 # Employee 클래스 생성
 
 class Employee:
-    serial_num = 1000   #기준값(클래스 변수)
+    serial_num = 1000   #기준값(클래스 변수), 데이터 영역 메모리
 
     def __init__(self):
         Employee.serial_num += 1        #1증가
@@ -31,10 +31,3 @@ e3 = Employee()
 e3.setname("박대양")
 print("사번 : " + str(e3.getid()) + ", 이름 : " + e3.getname())
 
-
-
-
-
-
-
-##############
