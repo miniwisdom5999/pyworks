@@ -13,10 +13,10 @@ cart1 = Cart("계란")
 print(cart1.li)
 
 cart2 = Cart("두부")
-print(cart1.li)
+print(cart2.li)
 
 cart3 = Cart("커피")
-print(cart1.li)
+print(cart3.li)
 
 
 
