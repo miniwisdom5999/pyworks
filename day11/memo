@@ -1,0 +1,118 @@
+지난 시간 흝어보기
+
+*파일 읽기
+open("파일의 위치", 'r')  열기
+f.read()                읽기
+f.close()               닫기
+
+
+*파일 쓰기
+open("파일의 위치", 'w')  열기
+f.write()               쓰기
+f.close()               닫기
+
+
+*예외처리
+try:
+open(파일이 삭제된 경우)
+
+except:
+파일을 열 수 없습니다.
+
+
+
+
+*
+with open() 으로 시작하면
+f.close 안써도 괜찮음
+
+****************************************
+
+*입력 받아 파일 쓰기, 한글 안나올때
+마이크로소프트에서 지원하는 한글로 보이는거 클릭해줘서 연동(?)시키기
+ex) Reload in 'x-windows-949'  이런거 뜸
+만약에 그런거 안뜨면 마우스 오른쪽 눌러서 Show Context Actions 누르기
+
+
+
+
+
+*
+try:
+    ~~~
+except 오류이름:
+
+
+
+
+
+*플라스크 & 웹 사이트 구축
+파이썬으로 제작된 웹프레임워크(장고 비슷한거)
+구글에 파이썬 flack documentation 라고 검색
+https://flask.palletsprojects.com/en/2.0.x/
+이 사이트에서 설치 방법 찾을 수 있음
+
+*설치 방법 (cmd에서 flask 검색해서 안깔려있다고 나오면 깔아주기)
+pip install Flask
+pip install --upgrade pip
+
+그럼이제 flask 검색하면 나올거임!!
+
+
+
+
+
+--------------------------------------------------------------
+*start_app 초본
+
+# 웹 서버 만들기
+from flask import Flask
+
+app = Flask(__name__)       #Flask 객체 app 생성
+
+@app.route('/')    #@ - 애너테이션,  '/'루트 경로,  ip - 127.0.0.1:5000 -> host:port
+def index():
+    return "<h1>Hello~ Flask!!</h1>"
+
+@app.route('/login/')       #주소의 경로이름과 함수 이름을 동일하게 함
+def login():
+    return "<h1>로그인 페이지입니다</h1>"
+
+@app.route('/register/')
+def register():
+    return "<h1>회원가입 페이지입니다</h1>"
+
+@app.route('/board/')
+def board():
+    return "<h1>게시판 페이지입니다</h1>"
+
+
+
+app.run(debug=True)
+#debuf=True 서비스 하기 전 개발 모드
+#debug=True 배포시 보안상 이유로 이렇게 씀  #자동 새로고침 개꿀!!
+
+----------------------------------------------------------------
+
+
+
+*웹 계층 구조
+필수 구조
+-
+-static 폴더   이미지나 css 등    얘는 따로 놀음
+-
+
+파일이름도 정해진 구조 그대로 써야함
+
+
+
+
+
+
+
+
+
+
+*템플릿으로 질문 목록 페이지 만들기
+템플릿 태그
+찾아보기!!!!!!!

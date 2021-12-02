@@ -1,4 +1,8 @@
-
+*파이썬 Docs
+https://docs.python.org/3/
+파이썬 자습서 볼 때, 번역기 돌리지말고
+https://docs.python.org/ko/3/
+이렇게 하면 제대로 된 번역 나옴
 
 
 
@@ -10,7 +14,7 @@ myerror 만들었음
 
 
 *파일 쓰기
-- 파일 오픈 f.open
+- 파일 오픈 open
 - 파일 읽기 f.write
 - 파일 닫기 f.close
 
