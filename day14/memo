@@ -2,3 +2,67 @@
 1대 多, 1대 1, 多대 多
 
 
+venv
+
+버전 등의 문제가 있을 수 있으므로
+언제나 가상화 공간에서!!
+
+웹에서는 특별한거 아니면 숫자도 문자형식으로 넣어주는것 추천
+(회원가입, 아이디, 비번 등) 나중에 변환하기 귀찮음
+
+datetime-local
+
+colspan
+
+
+운영체제(os)  |   DB  |  NETWORK
+
+응용 sw 교재 45~50p
+
+응용 계층
+표현 계층
+세션 계층
+전송 계층 		데이터 전송 ->TCP/IP
+네트워크 계층 라우터
+데이터 링크 계층   		데이터 송,수신을 위한 체계 	 -브리지, 스위치
+물리 계층     		pc, 케이블, 하드웨어 연결    	 -케이블, 허브, 리피터
+
+
+4 세 표 응
+3 전송
+2 네트워크
+1 물리
+
+54p
+24p 27p 29p 32p 34p
+
+
+*쪽지시험
+1. 리눅스 - 4p
+2. 네트워크 7계층 - p46
+3. cmd 사용 명령어 - 디렉터리 만들고, 내용보기
+4. 외래키
+FOREICN KEY(did) REFERENCES department(deptid)
+5. memberdb 만들고, table 만들기, 자료추가, 자료검색
+
+
+C:\Users\eduwill>cd c:/git_test
+
+c:\git_test>mkdir test
+
+c:\git_test>cd test
+
+c:\git_test\test>dir
+ C 드라이브의 볼륨: WIN10
+ 볼륨 일련 번호: D6D0-EAED
+
+ c:\git_test\test 디렉터리
+
+2021-12-07  오후 12:44    <DIR>          .
+2021-12-07  오후 12:44    <DIR>          ..
+               0개 파일                   0 바이트
+               2개 디렉터리  184,675,348,480 바이트 남음
+
+c:\git_test\test>
+
+
