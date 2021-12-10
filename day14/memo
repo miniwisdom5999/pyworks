@@ -42,7 +42,7 @@ colspan
 2. 네트워크 7계층 - p46
 3. cmd 사용 명령어 - 디렉터리 만들고, 내용보기
 4. 외래키
-FOREICN KEY(did) REFERENCES department(deptid)
+FOREICN KEY(~~) REFERENCES 테이블 이름(~~~)      ~~랑 ~~~이름이 같은 경우 많을듯
 5. memberdb 만들고, table 만들기, 자료추가, 자료검색
 
 
