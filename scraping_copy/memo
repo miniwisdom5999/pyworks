@@ -1,0 +1,74 @@
+
+*웹 스크래핑(웹 크롤링)
+웹에 있는걸 보지않고 바로 다 가져오는 것
+
+리퀘스트냐 리스판스냐..?
+
+자료수집, 데이터에 대해 잘 알아야함
+
+*로봇 배제 표준   robots.txt 하면 그 사이트에 대한 허용 범위나 설명 나옴
+-크롤링 또는 스크래핑으로 취득한 자료를 임의로 배포하면 지적재산권침해!!!
+
+https://www.python.org/robots.txt
+
+Allow: /            허락한다
+Disallow: /         허락안한다
+
+
+
+*cmd에서 pip install requests 해서 다운받기
+(플라스크처럼 모듈같은거)
+
+************~~~에서 가져올떄 requests ??
+
+
+*BeautifulSoup 모듈 사용하기 위해서
+cmd에서 pip install BeautifulSoup4 해서 다운받기
+
+
+************html에서 가져올때 BeautifulSoup ??
+
+
+
+*
+구글에서 seoul subway 검색하고 나온사이트에서 긁어오고 있다..
+
+
+
+*bs4랑 BeautifulSoup4은 같은거!!
+    .parser 이거 외우기
+
+    find(ul)처음 나오는 'ul'태그를 찾음
+    다 찾고싶으면 find all ??
+
+
+
+*파싱
+
+
+
+*바이너리 파일 - 0과 1로 이루어진 화상, 음성등의 대부분의 파일
+    open("파일위치", 'wb')
+
+모드   설명
+wb     쓰기
+rb     읽기
+
+
+
+
+
+
+cmd로 깃허브에 자료 파일 그래도 가져올때!!
+파일 정한뒤에
+c:\git_test>git clone https://github.com/sugu2100/pyworks
+Cloning into 'pyworks'...
+remote: Enumerating objects: 358, done.
+remote: Counting objects: 100% (358/358), done.
+remote: Compressing objects: 100% (287/287), done.
+remote: Total 358 (delta 83), reused 328 (delta 53), pack-reused 0Receiving objects:  87% (312/358), 10.86 MiB | 10.85 MReceiving objects:  88% (316/358)
+Receiving objects: 100% (358/358), 11.46 MiB | 10.81 MiB/s, done.
+Resolving deltas: 100% (83/83), done.
+
+c:\git_test>
+

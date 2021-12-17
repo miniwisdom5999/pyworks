@@ -24,6 +24,6 @@ print(first_ul.text)    #태그를 제외한 문자열 출력
 
 
 first_li = first_ul.find('li')      # first_ul 객체로 li 태그 접근함
-print(first_li.text)
+print(first_li)
 
 
